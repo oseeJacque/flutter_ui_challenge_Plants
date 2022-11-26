@@ -18,10 +18,16 @@ To get started with this project you need to have the following items:<br>
 - Have flutter installed on your computer <br>
 - Have Android Studio or Visual Studio installed on your computer <br>
 - Have a good internet connection to do research if necessary for understanding the code <br> 
-  <strong>NB:If you have no knowledge of flutter, don't worry. You can train online. Here are some youtube playsList links that can help you </strong>
+  
 </p>
-<h2>Getting Started</h2>
-<h2>Getting Started</h2>
+
+<h2>Prerequisites</h2>
+<p>
+-To better understand the challenge (project) you must have prior knowledge<br>
+</>
+<h2>Facility</h2>
+-[Flutter](https://docs.flutter.dev/get-started/install)
+-[Android Studio](https://docs.flutter.dev/get-started/install/windows)
 <h2>Getting Started</h2>
 This project is a starting point for a Flutter application.
 
