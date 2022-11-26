@@ -12,12 +12,14 @@ This project is a small challenge of making a user interface flutter application
 
 </p>
 <h2>Getting Started</h2>
-To get started with this project you need to have the following items:
-- A computer with a windows or linux operating system
-- Have flutter installed on your computer
-- Have Android Studio or Visual Studio installed on your computer
-- Have a good internet connection to do research if necessary for understanding the code
-
+<p>
+To get started with this project you need to have the following items:<br>
+- A computer with a windows or linux operating system <br>
+- Have flutter installed on your computer <br>
+- Have Android Studio or Visual Studio installed on your computer <br>
+- Have a good internet connection to do research if necessary for understanding the code <br> 
+  **NB:If you have no knowledge of flutter, don't worry. You can train online. Here are some youtube playsList links that can help you **
+</p>
 <h2>Getting Started</h2>
 <h2>Getting Started</h2>
 <h2>Getting Started</h2>
