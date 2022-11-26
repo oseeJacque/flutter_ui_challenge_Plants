@@ -14,14 +14,71 @@ class Checkout extends StatefulWidget {
 
 class _CheckoutState extends State<Checkout> {
   int _value=2;
+  int index=3;
   @override
   Widget build(BuildContext context) {
     return Scaffold(
         backgroundColor: AppColors.bg,
+        bottomNavigationBar: NavigationBarTheme(
+          data: NavigationBarThemeData(
+              indicatorShape: const RoundedRectangleBorder(
+                  borderRadius: BorderRadius.all(Radius.circular(200))),
+              elevation: 2.0,
+              height: 60.0,
+              backgroundColor: AppColors.bg,
+              indicatorColor: Colors.black),
+          child: NavigationBar(
+              selectedIndex: index,
+              onDestinationSelected: (int value) {
+                setState(() {
+                  index = value;
+                });
+              },
+              destinations: const [
+                NavigationDestination(
+                  icon: Icon(Icons.home_outlined),
+                  label: "",
+                  selectedIcon: Icon(
+                    Icons.home_outlined,
+                    color: Colors.white,
+                  ),
+                ),
+                NavigationDestination(
+                  icon: Icon(Icons.favorite_border),
+                  label: "",
+                  selectedIcon: Icon(
+                    Icons.favorite_border,
+                    color: Colors.white,
+                  ),
+                ),
+                NavigationDestination(
+                    icon: Icon(Icons.camera_alt_sharp),
+                    label: "",
+                    selectedIcon: Icon(
+                      Icons.camera_alt_sharp,
+                      color: Colors.white,
+                    )),
+                NavigationDestination(
+                  icon: Icon(Icons.lock),
+                  label: "",
+                  selectedIcon: Icon(
+                    Icons.lock,
+                    color: Colors.white,
+                  ),
+                ),
+                NavigationDestination(
+                    icon: Icon(Icons.person_rounded),
+                    label: "",
+                    selectedIcon: Icon(
+                      Icons.person_rounded,
+                      color: Colors.white,
+                    ))
+              ]),
+        ),
         body: SingleChildScrollView(
           child: Container(
             margin: EdgeInsets.only(
-              top: MediaQuery.of(context).size.width * .02,
+              top: MediaQuery.of(context).size.width * .1,
               left: MediaQuery.of(context).size.width * .03,
               right: MediaQuery.of(context).size.width * .03,
             ),

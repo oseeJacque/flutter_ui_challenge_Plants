@@ -169,7 +169,7 @@ class _MyCartState extends State<MyCart> {
               ),
               const SizedBox(width: 10.0,),
               SizedBox(
-                width: MediaQuery.of(context).size.width*.45,
+                width: MediaQuery.of(context).size.width*.4,
                 height: MediaQuery.of(context).size.height*.4,
                 child: Column(
                   mainAxisAlignment: MainAxisAlignment.start,

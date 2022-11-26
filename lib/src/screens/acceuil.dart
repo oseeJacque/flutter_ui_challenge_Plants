@@ -78,10 +78,10 @@ class _AcceuilPageState extends State<AcceuilPage>
                 width: MediaQuery.of(context).size.width * .9,
                 height: 400,
                 child: TabBarView(controller: _tabController, children: [
-                  const Text("Hello"),
+                  Center(child: const Text("All Product")),
                   _indoor(),
-                  const Text("Hello"),
-                  const Text("Hello"),
+                  Center(child: const Text("Outdorr")),
+                  Center(child: const Text("Popular")),
                 ]),
               ),
               const SizedBox(
