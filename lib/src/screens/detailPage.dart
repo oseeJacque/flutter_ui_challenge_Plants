@@ -209,7 +209,7 @@ class _DetailPageState extends State<DetailPage> {
                                     AppColors.btnColor),
                               ),
                               child: TextStyler(
-                                Texts.checkout,
+                                Texts.addToCar,
                                 fontSize: 20.0,
                                 color: AppColors.bg,
                               ),

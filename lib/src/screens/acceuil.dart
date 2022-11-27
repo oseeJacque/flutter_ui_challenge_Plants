@@ -205,8 +205,8 @@ class _AcceuilPageState extends State<AcceuilPage>
                         children: [
                           Container(
                             alignment: Alignment.center,
-                            width: 100,
-                            height: 40,
+                            width: MediaQuery.of(context).size.width*.25,
+                            height: MediaQuery.of(context).size.height*.05,
                             decoration: BoxDecoration(
                                 borderRadius: const BorderRadius.all(
                                   Radius.circular(20.0),
@@ -218,22 +218,22 @@ class _AcceuilPageState extends State<AcceuilPage>
                               fontWeight: FontWeight.bold,
                             ),
                           ),
-                          const SizedBox(
-                            width: 20.0,
+                           SizedBox(
+                            width: MediaQuery.of(context).size.width*.03,
                           ),
                           Container(
                             alignment: Alignment.center,
-                            width: 40,
-                            height: 40,
+                            width: MediaQuery.of(context).size.width*.1,
+                            height: MediaQuery.of(context).size.width*.1,
                             decoration: const BoxDecoration(
                               borderRadius:
                                   BorderRadius.all(Radius.circular(100)),
                               color: Colors.black,
                             ),
-                            child: const Icon(
+                            child:  Icon(
                               Icons.favorite_border,
                               color: Colors.white,
-                              size: 30.0,
+                              size: MediaQuery.of(context).size.width*.07,
                             ),
                           )
                         ],
@@ -250,7 +250,7 @@ class _AcceuilPageState extends State<AcceuilPage>
       Container(
           padding: const EdgeInsets.only(left: 30.0, top: 0.0),
           width: MediaQuery.of(context).size.width * .92,
-          height: 100.0,
+          height: MediaQuery.of(context).size.height*.15,
           decoration: BoxDecoration(
             borderRadius: const BorderRadius.all(
               Radius.circular(20.0),
